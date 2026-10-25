@@ -1,10 +1,13 @@
 # ExpenseFlow — Expense Voucher Management System
 
+[![Live Demo](https://img.shields.io/badge/demo-live-2f7d4a?logo=render&logoColor=white)](https://expense-voucher-management-system-45gx.onrender.com)
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=111)](https://react.dev/)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 > A focused workflow for creating, reviewing, and tracking employee expense reimbursements.
+
+**Live demo:** [expense-voucher-management-system-45gx.onrender.com](https://expense-voucher-management-system-45gx.onrender.com)
 
 ExpenseFlow is a role-based expense voucher application for ABC Company. Employees create and track requests, the Director reviews them, and the Accounts team monitors approved expenses for reimbursement.
 
