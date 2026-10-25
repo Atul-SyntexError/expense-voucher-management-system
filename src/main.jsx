@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
 
-const API = "http://localhost:4000/api";
+const API = `${import.meta.env.VITE_API_URL || ""}/api`;
 const demoAccounts = [
   ["employee@abc.com", "Employee"],
   ["director@abc.com", "Director"],

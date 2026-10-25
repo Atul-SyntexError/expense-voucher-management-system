@@ -29,6 +29,7 @@ const canSee = (user, voucher) => user.role !== "employee" || voucher.employeeId
 app.use(cors());
 app.use(express.json());
 app.use("/uploads", express.static(uploadDir));
+app.use(express.static(path.join(__dirname, "..", "dist")));
 
 app.post("/api/auth/login", async (req, res) => {
   const { email, password } = req.body;
@@ -98,4 +99,9 @@ app.post("/api/uploads", auth, upload.single("signature"), (req, res) => {
   if (!req.file) return res.status(400).json({ message: "Please select an image." });
   res.json({ url: `/uploads/${req.file.filename}` });
 });
-app.listen(PORT, () => console.log(`Expense Voucher API running on http://localhost:${PORT}`));
+app.get("*", (req, res, next) => {
+  if (req.path.startsWith("/api/") || req.path.startsWith("/uploads/")) return next();
+  res.sendFile(path.join(__dirname, "..", "dist", "index.html"));
+});
+
+app.listen(PORT, () => console.log(`Expense Voucher API running on port ${PORT}`));
