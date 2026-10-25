@@ -1,0 +1,8 @@
+{
+  "users": [
+    {"id":"u1","name":"Prince Atul","email":"employee@abc.com","password":"$2a$10$NDJqSGb6ZrgBGhpfuLW9Gu6iVs2Gq17MlWMLf67wjsAoasHpppfSW","role":"employee","employeeId":"EMP-001","department":"Engineering"},
+    {"id":"u2","name":"Anita Sharma","email":"director@abc.com","password":"$2a$10$NDJqSGb6ZrgBGhpfuLW9Gu6iVs2Gq17MlWMLf67wjsAoasHpppfSW","role":"director"},
+    {"id":"u3","name":"Rohan Mehta","email":"accounts@abc.com","password":"$2a$10$NDJqSGb6ZrgBGhpfuLW9Gu6iVs2Gq17MlWMLf67wjsAoasHpppfSW","role":"accounts"}
+  ],
+  "vouchers": []
+}
