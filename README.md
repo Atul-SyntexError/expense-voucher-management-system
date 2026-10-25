@@ -9,6 +9,8 @@
 
 **Live demo:** [expense-voucher-management-system-45gx.onrender.com](https://expense-voucher-management-system-45gx.onrender.com)
 
+**Project owner:** Prince Atul · [@Atul-SyntexError](https://github.com/Atul-SyntexError)
+
 ExpenseFlow is a role-based expense voucher application for ABC Company. Employees create and track requests, the Director reviews them, and the Accounts team monitors approved expenses for reimbursement.
 
 ## Project highlights
